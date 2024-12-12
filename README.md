@@ -14,6 +14,53 @@
 
 </head>
 
+# Project Title: Click-Through Rate Prediction
+
+<div>
+  <h2>Goal</h2>
+  <p>
+    Construct a model to predict CTR based on features of the display ad and use it to generate predictions for a set of unlabeled data.
+  </p>
+
+  <h2>Description</h2>
+  <p>
+    In the rapidly evolving landscape of digital marketing, businesses strive to drive traffic to their websites to maximize consumer engagement with website content and for online retailers also promote sales. Display advertising is one method used to drive traffic. Success of a display ad is judged by the percentage of visitors who click on the ad, commonly known as Click-Through Rate (CTR). The goal of this competition is to predict CTR based on a set of variables describing the quality, relevance, type, target audience, and content of the display advertisement.
+  </p>
+
+  <h2>Data Description</h2>
+  <p><strong>Ad number (id):</strong> Number that uniquely identifies the ad</p>
+  <p><strong>Targeting Score (targeting_score):</strong> A score from 1 to 10 representing how well the ad is targeted to the audience. Higher scores indicate better targeting.</p>
+  <p><strong>Visual Appeal (visual_appeal):</strong> A score from 1 to 10 representing the visual attractiveness of the ad. Higher scores indicate a more visually appealing ad.</p>
+  <p><strong>Contextual Relevance (contextual_relevance):</strong> Indicates whether the ad content is relevant to the context in which it is displayed. A value of 1 means relevant; 0 means not relevant.</p>
+  <p><strong>CTA Strength (cta_strength):</strong> A score from 1 to 10 representing the effectiveness of the Call-to-Action (CTA) in the ad. Higher scores indicate a stronger CTA.</p>
+  <p><strong>Position on Page (position_on_page):</strong> The position of the ad on the web page. It has three possible values: Top Banner, Side Banner, and In-Content.</p>
+  <p><strong>Ad Format (ad_format):</strong> The format of the ad, with three possible values: Image, Video, and Text.</p>
+  <p><strong>Age Group (age_group):</strong> The age group of the target audience, with possible values: 18-24, 25-34, 35-44, 45-54, 55-64, 65-74, 75-84, and 85+.</p>
+  <p><strong>Gender (gender):</strong> The gender of the target audience, with possible values: Male, Female, and Other.</p>
+  <p><strong>Location (location):</strong> The geographic region where the ad is displayed, with four possible values: Northeast, Midwest, South, and West.</p>
+  <p><strong>Time of Day (time_of_day):</strong> The time of day when the ad is displayed, with four possible values: Morning, Afternoon, Evening, and Night.</p>
+  <p><strong>Day of Week (day_of_week):</strong> The day of the week when the ad is displayed, with seven possible values: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, and Sunday.</p>
+  <p><strong>Brand Familiarity (brand_familiarity):</strong> A score from 1 to 10 representing the audience's familiarity with the brand being advertised. Higher scores indicate greater familiarity.</p>
+  <p><strong>Device Type (device_type):</strong> The type of device on which the ad is displayed, with three possible values: Mobile, Desktop, and Tablet.</p>
+  <p><strong>Ad Frequency (ad_frequency):</strong> The number of times the ad has been shown to the same audience.</p>
+  <p><strong>Market Saturation (market_saturation):</strong> A score from 1 to 10 indicating how saturated the market is with similar ads. Higher scores indicate higher saturation.</p>
+  <p><strong>Seasonality (seasonality):</strong> Indicates whether the ad is displayed during a peak season (1) or not (0).</p>
+  <p><strong>Headline Length (headline_length):</strong> The number of characters in the ad's headline.</p>
+  <p><strong>Headline Sentiment (headline_sentiment):</strong> A score indicating the sentiment of the headline text, where positive values indicate positive sentiment and negative values indicate negative sentiment.</p>
+  <p><strong>Headline Word Count (headline_word_count):</strong> The number of words in the ad's headline.</p>
+  <p><strong>Headline Power Words (headline_power_words):</strong> Indicates whether the headline contains powerful, persuasive words (1) or not (0).</p>
+  <p><strong>Body Text Length (body_text_length):</strong> The number of characters in the ad's body text.</p>
+  <p><strong>Body Word Count (body_word_count):</strong> The number of words in the ad's body text.</p>
+  <p><strong>Body Sentiment (body_sentiment):</strong> A score indicating the sentiment of the body text, where positive values indicate positive sentiment and negative values indicate negative sentiment.</p>
+  <p><strong>Headline Question (headline_question):</strong> Indicates whether the headline is framed as a question (1) or not (0).</p>
+  <p><strong>Headline Numbers (headline_numbers):</strong> Indicates whether the headline contains numbers (1) or not (0).</p>
+  <p><strong>Body Keyword Density (body_keyword_density):</strong> The density of keywords in the body text, represented as a proportion.</p>
+  <p><strong>Body Readability Score (body_readability_score):</strong> A score indicating the readability of the body text, where higher scores indicate easier readability.</p>
+  <p><strong>Click-Through Rate (CTR):</strong> Represents the percentage of users who clicked on the ad after viewing it.</p>
+</div>
+
+
+
 <body>
 
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
